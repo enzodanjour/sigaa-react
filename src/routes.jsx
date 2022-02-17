@@ -13,9 +13,9 @@ import { Projeto } from "./pages/projeto";
       <div>
         <Router>
             <Routes>
-            <Route path="/noticia" element={<Noticia/>}/>
-            <Route path="/" element={<Principal/>}/>   
-            <Route path="/projeto" element={<Projeto/>}/> 
+              <Route path="/noticia" element={<Noticia/>}/>
+              <Route path="/" element={<Principal/>}/>   
+              <Route path="/projeto" element={<Projeto/>}/> 
             </Routes>
             <AppFooter/>
         </Router>
