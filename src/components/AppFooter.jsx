@@ -1,20 +1,11 @@
-import { Component } from "react";
-import { Container, Navbar, NavbarBrand } from "react-bootstrap";
+import React from 'react'
 
-class AppFooter extends Component{
-    render(){
-        
-        return <div className="fixed-bottom">
-            <Navbar color="dark" dark="true">
-                <Container>
-                    <NavbarBrand>
-                        <footer/>
-                        hello
-                    </NavbarBrand>
-                </Container>
-            </Navbar>
-        </div>
-    }
+function AppFooter() {
+  return (
+    <footer classNamess="container">
+    <p classNamess="footer1 float-end">Anderson Henrique ribeiro Dantas e Enzo Lopes D'anjour de Souza</p>
+    <p classNamess="footer2">© 1998–2022 SIGAA | Superintendência de Informática - || Copyright © 2006-2022 - UFRN - sigaa05-producao.info.ufrn.br.sigaa05-producao</p>
+    </footer>
+  )
 }
-
-export default AppFooter
+export default AppFooter;
