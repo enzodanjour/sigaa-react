@@ -4,7 +4,8 @@ export function Nave() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
-        <a className="navbar-brand" href="/">Sig-Tads</a>
+      <img src="src/images/Tads.img" alt="" width="30" height="24" class="d-inline-block align-text-top"/>
+        <a className="navbar-brand" href="/">Tads</a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
