@@ -4,6 +4,7 @@ import { violet, blackA, mauve } from '@radix-ui/colors';
 import { ChevronDownIcon } from '@radix-ui/react-icons';
 import * as AccordionPrimitive from '@radix-ui/react-accordion';
 import { Container } from 'react-bootstrap';
+import '../css/principal.css'
 
 const slideDown = keyframes({
     from: { height: 0 },
@@ -18,7 +19,7 @@ const slideUp = keyframes({
 const StyledAccordion = styled(AccordionPrimitive.Root, {
     borderRadius: 6,
     width: 'calc(100% + 6px)',
-    
+
     backgroundColor: mauve.mauve6,
     boxShadow: `0 2px 10px ${blackA.blackA4}`,
 });
@@ -112,11 +113,38 @@ export const AccordionContent = React.forwardRef(({ children, ...props }, forwar
 export function Principal() {
     return (
         <>
-            <Container className="h2">ESCOLA AGRÍCOLA DE JUNDIAÍ - EAJ</Container>
+            <Container className="title h2" >ESCOLA AGRÍCOLA DE JUNDIAÍ - EAJ</Container>
 
-            <h2>CURSO DE ANÁLISE E DESENVOLVIMENTO DE SISTEMAS / EAJ</h2>
+            <h2 className='title'>ANÁLISE E DESENVOLVIMENTO DE SISTEMAS/EAJ</h2>
             <br />
-        
+            
+            <div class="card mb-1">
+            
+                <img src="src/images/capaeaj.img" alt="imagem eaj" />
+            
+                    <div class="card-body">
+                        <h5 class="card-title">Apresentação</h5>
+                        <p class="card-text">O Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas (TADS)
+                            tem como objetivo a formação de profissionais capazes de compreender o processo de construção
+                            e reconstrução do conhecimento no domínio da análise e desenvolvimento de sistemas e, dessa forma,
+                            realizar atividades de concepção, especificação, projeto, implementação, avaliação, suporte e
+                            manutenção de sistemas computacionais, orientando sua ação na sociedade em geral e no mundo do
+                            trabalho em particular para a busca de soluções para o setor produtivo (notadamente o setor primário da economia)
+                            e para a melhoria da qualidade de vida das populações. Os profissionais formados atuarão na área de análise e
+                            desenvolvimento de sistemas, podendo exercer atividades no campo da análise de sistemas, engenharia de software,
+                            gerência de projetos e administração de bancos de dados.</p>
+                        <p class="card-text">Além da formação geral em Tecnologia em Análise e Desenvolvimento de Sistemas, o
+                            curso tem objetivo de promover a integração entre as ciências agrárias e a denominada Tecnologia da
+                            Informação (TI) com suas diversas subáreas, obtendo-se assim uma gama de benefícios e ampliação do
+                            espectro de formação profissional em nível superior, considerando que um curso desta natureza permitirá
+                            ao egresso propor soluções tecnológicas em software e/ou hardware para as ciências agrárias ou,
+                            usando uma nomenclatura mais específica e mercadológica, para a cadeia do agronegócio e da agricultura
+                            familiar, sendo, nesse sentido estratégico para o desenvolvimento regional e nacional. Tais objetivos
+                            baseiam-se na formação de Tecnólogos com capacidade técnico-científica e visão integral, ética e humanística,
+                            comprometidos com o bem estar da sociedade envolvida e com o desenvolvimento sustentável, exercendo todas as
+                            competências relacionadas à profissão.</p>
+                    </div>
+            </div>
 
             <br></br>
             <Container className="h2">
