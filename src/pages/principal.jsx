@@ -120,7 +120,7 @@ export function Principal() {
 
             <br></br>
             <Container className="h2">
-                <Accordion type="single" defaultValue="item-1" accordion-itemcollapsible>
+                <Accordion type="single" defaultValue="item-1" accordion-itemcollapsible="true">
                     <AccordionItem value="item-1">
                         <AccordionTrigger>
                             Coordenação do Programa
