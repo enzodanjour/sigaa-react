@@ -1,5 +1,5 @@
 {
-  "homepage":"http://enzodanjour.github.io/sigaa-react",
+  "homepage": "http://enzodanjour.github.io/sigaa-react",
   "name": "sigaa-react",
   "private": true,
   "version": "0.0.0",
@@ -7,8 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "predeploy":"vite build",
-    "deploy":"gh-pages -d build"
+    "predeploy": "vite build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@radix-ui/colors": "^0.1.8",
@@ -26,7 +26,8 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^1.0.7",
-    "vite": "^2.8.0",
-    "gh-pages": "^3.2.3"
+    "gh-pages": "^3.2.3",
+    "scss": "^0.2.4",
+    "vite": "^2.8.0"
   }
 }

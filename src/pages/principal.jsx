@@ -4,7 +4,7 @@ import { violet, blackA, mauve } from '@radix-ui/colors';
 import { ChevronDownIcon } from '@radix-ui/react-icons';
 import * as AccordionPrimitive from '@radix-ui/react-accordion';
 import { Container } from 'react-bootstrap';
-import '../css/principal.css'
+
 
 const slideDown = keyframes({
     from: { height: 0 },

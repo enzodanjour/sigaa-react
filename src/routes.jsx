@@ -8,7 +8,6 @@ import { Projeto } from "./pages/projeto";
 import { Calendario } from "./pages/calendario";
 import { Api } from "./pages/api";
 import { Nave } from "./components/Nave";
-import 'bootstrap/dist/css/bootstrap.min.css';
 import AppFooter from "./components/AppFooter";
 import { Noticia } from "./pages/noticia";
 
