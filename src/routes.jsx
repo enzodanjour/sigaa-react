@@ -15,7 +15,7 @@ export function AppRoutes() {
   return (
     <div>
       <Nave />
-      <Router>
+      <Router basename="/sigaa-react">
         <Routes>
           <Route path="/" element={<Principal />} />
           <Route path="/noticia" element={<Noticia />} />
