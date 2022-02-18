@@ -1,7 +1,7 @@
 {
-  "homepage": "https://enzodanjour.github.io/sigaa-react",
+  "homepage": "https://enzodanjour.github.io/sigaa-react/",
   "name": "sigaa-react",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
