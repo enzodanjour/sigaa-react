@@ -1,9 +1,12 @@
 import React from 'react'
+import { AppFooter } from '../components/AppFooter'
+import { Nave } from '../components/Nave'
 
 export function Calendario() {
     return (
 
         <>
+            <Nave />
             <><h2>Calendário</h2>
 
                 <ul className="list-group">
@@ -36,6 +39,9 @@ export function Calendario() {
                     → Término do período trancamento de turma 2021.2.</li>
                 <li className="list-group-item">19/02/2022
                     → Término do período letivo 2021.2.</li>
-            </ul></>
+            </ul>
+            <AppFooter />
+            </>
+            
     )
 }

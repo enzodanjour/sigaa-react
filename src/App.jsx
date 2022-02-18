@@ -1,14 +1,14 @@
-import { useState } from 'react'
-import logo from './logo.svg'
+// import { useState } from 'react'
+// import logo from './logo.svg'
 
-import { AppRoutes } from './routes'
-import AppFooter from './components/AppFooter';
+// import { AppRoutes } from './routes'
+// import AppFooter from './components/AppFooter';
 
-function App() {
+// function App() {
 
-  return (
-    <AppRoutes />
-  );
-}
+//   return (
+//     <AppRoutes />
+//   );
+// }
 
-export default App
+// export default App

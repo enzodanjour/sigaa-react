@@ -1,8 +1,11 @@
 import React from 'react'
+import { AppFooter } from '../components/AppFooter'
+import { Nave } from '../components/Nave'
 
 export function Projeto() {
   return (
     <div>
+      <Nave />
       <div className="accordion accordion-flush" id="accordionFlushExample">
 
         <h2 className="h22">Projeto Pedagógico do Curso</h2>
@@ -114,6 +117,7 @@ export function Projeto() {
           </div>
         </div>
       </div>
+      <AppFooter />
     </div>
   )
 }

@@ -13,19 +13,19 @@ export function Nave() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link" aria-current="page" href="/">Principal</a>
+              <a className="nav-link" aria-current="page" href="/sigaa-react">Principal</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/noticia">Noticia</a>
+              <a className="nav-link" href="/sigaa-react/noticia">Noticia</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/projeto">Projeto</a>
+              <a className="nav-link" href="/sigaa-react/projeto">Projeto</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/calendario">Calendário</a>
+              <a className="nav-link" href="/sigaa-react/calendario">Calendário</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/api">Clima macaíba</a>
+              <a className="nav-link" href="/sigaa-react/api">Clima macaíba</a>
             </li>
 
           </ul>

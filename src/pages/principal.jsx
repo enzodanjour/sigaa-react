@@ -5,6 +5,9 @@ import { ChevronDownIcon } from '@radix-ui/react-icons';
 import * as AccordionPrimitive from '@radix-ui/react-accordion';
 import { Container } from 'react-bootstrap';
 import logo from '../images/capaeaj.png';
+import { AppFooter } from '../components/AppFooter'
+import { Nave } from '../components/Nave'
+
 
 const slideDown = keyframes({
     from: { height: 0 },
@@ -113,6 +116,7 @@ export const AccordionContent = React.forwardRef(({ children, ...props }, forwar
 export function Principal() {
     return (
         <>
+        <Nave />
             <Container className="title h2" >ESCOLA AGRÍCOLA DE JUNDIAÍ - EAJ</Container>
 
             <h2 className='title'>ANÁLISE E DESENVOLVIMENTO DE SISTEMAS/EAJ</h2>
@@ -188,7 +192,7 @@ export function Principal() {
                 </Accordion>
             </Container>
 
-
+            <AppFooter />
         </>
     )
 }

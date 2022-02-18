@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function AppFooter() {
+export function AppFooter() {
   return (
     <footer >
       <p className="footer1 float-end">Anderson Henrique ribeiro Dantas e Enzo Lopes D'anjour de Souza</p>

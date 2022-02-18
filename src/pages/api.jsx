@@ -1,6 +1,8 @@
 
   
 import { useEffect, useState } from "react"
+import { AppFooter } from "../components/AppFooter";
+import { Nave } from "../components/Nave";
 export function Api() {
     const [weater, setWeater] = useState([]);
     const [image, setImage] = useState([]);
@@ -18,6 +20,7 @@ export function Api() {
     }, []);
     return (
         <>
+         <Nave />
         <h1>
             Clima de Macaíba
         </h1>
@@ -29,7 +32,7 @@ export function Api() {
             </div>
 
 
-
+            <AppFooter />
         </>
     )
 }

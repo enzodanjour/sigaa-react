@@ -1,8 +1,11 @@
 import React from 'react'
+import { AppFooter } from '../components/AppFooter'
+import { Nave } from '../components/Nave'
 
 export function Noticia() {
   return (
     <>
+    <Nave />
     <h2 className="h22">Notícias</h2><table className="table">
           <thead>
               <tr>
@@ -61,6 +64,7 @@ export function Noticia() {
               </tr>
           </tbody>
       </table>
+      <AppFooter />
       </>
 
   )
