@@ -15,7 +15,7 @@ import { Projeto } from "./pages/projeto";
 const rootElement = document.getElementById("root");
 
 ReactDOM.render(
- < React.StrictMode>
+  < React.StrictMode>
   <BrowserRouter basename='/sigaa-react'>
     <Routes>
       <Route path="" element={<Principal />} />
