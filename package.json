@@ -1,5 +1,5 @@
 {
-  "homepage": "http://enzodanjour.github.io/sigaa-react",
+  "homepage": "https://enzodanjour.github.io/sigaa-react",
   "name": "sigaa-react",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "predeploy": "vite build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
