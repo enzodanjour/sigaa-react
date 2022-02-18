@@ -4,7 +4,7 @@ import { violet, blackA, mauve } from '@radix-ui/colors';
 import { ChevronDownIcon } from '@radix-ui/react-icons';
 import * as AccordionPrimitive from '@radix-ui/react-accordion';
 import { Container } from 'react-bootstrap';
-
+import logo from '../images/capaeaj.png';
 
 const slideDown = keyframes({
     from: { height: 0 },
@@ -120,7 +120,7 @@ export function Principal() {
             
             <div class="card mb-1">
             
-                <img src="src/images/capaeaj.img" alt="imagem eaj" />
+                <img src={logo} alt="imagem eaj" />
             
                     <div class="card-body">
                         <h5 class="card-title">Apresentação</h5>
